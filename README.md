@@ -1,1 +1,1 @@
-Learning Django to develop MVC Application
+Learning Django to develop MVC Application. Designing CA Admin Tool.
