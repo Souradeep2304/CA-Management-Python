@@ -1,0 +1,43 @@
+{% load static %}
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Home</title>
+  </head>
+  <body>
+    <div>
+    <nav class="navbar navbar-expand-md navbar-custom">
+      <button class="openbtn" onclick="openNav()">☰</button> 
+        <a href="#" class="navbar-brand">Brand</a>
+       
+    </nav>
+    </div>
+    <div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Item 1</a>
+        <a href="#">Item 2</a>
+        <a href="#">Item 3</a>
+        <a href="#">Item 4</a>
+      </div>
+      
+      <div id="main">
+        
+      </div>
+    </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    
+  </body>
+</html>
