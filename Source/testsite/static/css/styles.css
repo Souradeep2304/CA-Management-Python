@@ -1,5 +1,6 @@
 .navbar-custom { 
     background-color: rgb(20, 107, 238); 
+    height: 7%;
 } 
 .navbar-brand{
 color: white;
@@ -15,8 +16,8 @@ color: white;
     background-color: rgb(178, 124, 250);
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
-    margin-top: 65px;
+
+    margin-top: 3.48%;
     
   }
   
@@ -42,17 +43,12 @@ color: white;
     margin-left: 50px;
   }
   
-  .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    color:  #111;
-    padding: 10px 15px;
-    border: none;
+  .bi .bi-justify {
+    size: 20px;
+  
   }
   
-  .openbtn:hover {
-    background-color: rgb(156, 156, 156);
-  }
+
   
   #main {
     transition: margin-left .5s;
